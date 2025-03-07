@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رسالة ❤</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .message {
+            font-size: 24px;
+            color: white;
+            background-color: red;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        svg {
+            width: 300px; /* تكبير القلب */
+            height: 300px;
+        }
+        text {
+            font-size: 30px; /* تكبير حجم النص */
+            font-weight: bold;
+            fill: white;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="message">أحبك يا أجمل بنت ❤</div>
+
+    <!-- قلب أكبر واسم ملاك بوضوح -->
+    <svg viewBox="0 0 200 200">
+        <path d="M100,180 
+                 C20,100 20,20 100,50 
+                 C180,20 180,100 100,180" 
+              fill="red" />
+        <!-- ضبط موضع الاسم في وسط القلب -->
+        <text x="100" y="110">ملاك</text>
+    </svg>
+
+</body>
+</html>
